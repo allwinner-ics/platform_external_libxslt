@@ -54,7 +54,7 @@ extern "C" {
 #define WITH_XSLT_DEBUG
 #endif
 
-#if 1
+#if 0
 /**
  * DEBUG_MEMORY:
  *
@@ -116,7 +116,7 @@ extern "C" {
  * Whether module support is configured into libxslt
  * Note: no default module path for win32 platforms
  */
-#if 1
+#if 0
 #ifndef WITH_MODULES
 #define WITH_MODULES
 #endif
@@ -126,7 +126,7 @@ extern "C" {
 /**
  * Locale support
  */
-#if 1
+#if 0
 #ifndef XSLT_LOCALE_XLOCALE
 #define XSLT_LOCALE_XLOCALE
 #endif
